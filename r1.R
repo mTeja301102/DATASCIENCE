@@ -1,0 +1,8 @@
+library (datasets)
+data(iris)
+#View(iris) 
+#unique(iris$Species)
+#install.packages("GGally", repos = "https://cran.r-project.org", type = "source")
+#plot (iris)
+library(ggplot2)
+ggplot(data=iris,aes(x="teja",y="raja"))+geom_point()
